@@ -1,13 +1,5 @@
 spring:
   cloud:
-    vault:
-      host: ${VAULT_HOST}
-      port: ${VAULT_PORT}
-      scheme: ${VAULT_SCHEME}
-      authentication: ${VAULT_AUTHENTICATION}
-      token: ${VAULT_TOKEN}
-      kv:
-        enabled: true
     compatibility-verifier:
       enabled: false
   application:
