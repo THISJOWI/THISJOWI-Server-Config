@@ -47,7 +47,7 @@ kafka:
 
 auth:
   service:
-    url: http://auth:80/v1/auth
+    url: http://auth:80
 
 jwt:
   secret: "${JWT_SECRET}"
